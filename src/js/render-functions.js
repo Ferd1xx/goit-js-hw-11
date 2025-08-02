@@ -32,7 +32,7 @@ export function createGallery(images) {
 export function clearGallery() {
   galleryContainer.innerHTML = '';
 }
-
+//?//
 export function showLoader() {
   const loader = document.getElementById('loader');
   if (loader) loader.classList.remove('hidden');
